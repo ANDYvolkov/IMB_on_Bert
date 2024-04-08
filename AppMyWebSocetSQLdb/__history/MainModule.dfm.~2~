@@ -1,0 +1,18 @@
+object UniMainModule: TUniMainModule
+  OnCreate = UniGUIMainModuleCreate
+  MonitoredKeys.Keys = <>
+  WebSocketConnection.Enabled = True
+  Height = 332
+  Width = 354
+  object conMain: TFDConnection
+    Params.Strings = (
+      'DriverID=SQLite')
+    LoginPrompt = False
+    Left = 80
+    Top = 44
+  end
+  object fdphysqltdrvrlnk1: TFDPhysSQLiteDriverLink
+    Left = 152
+    Top = 100
+  end
+end

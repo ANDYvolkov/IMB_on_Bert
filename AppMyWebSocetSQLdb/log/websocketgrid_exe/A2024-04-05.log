@@ -1,0 +1,50 @@
+WebsocketGrid.exe: 0000073C: 12:09:20 []:>--------------------------------------------------------------<
+WebsocketGrid.exe: 0000073C: 12:09:20 [TUniServerModule]:Server First Init.
+WebsocketGrid.exe: 0000073C: 12:09:20 [TUniServerModule]:Start Path = G:\My_project\AppMyWebSocetSQLdb\
+WebsocketGrid.exe: 0000073C: 12:09:20 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+WebsocketGrid.exe: 0000073C: 12:09:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+WebsocketGrid.exe: 0000073C: 12:09:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+WebsocketGrid.exe: 00000C34: 12:11:35 [HandleFileRequest[127.0.0.1]]:File not found: G:\My_project\AppMyWebSocetSQLdb\favicon.ico
+WebsocketGrid.exe: 0000073C: 12:11:50 [TUniServerModule]:Shutting Down Server.
+WebsocketGrid.exe: 0000073C: 12:11:50 [TUniServerModule]:Stopping HTTP Server.
+WebsocketGrid.exe: 0000073C: 12:11:51 [TUniServerModule]:HTTP Server Stopped.
+WebsocketGrid.exe: 0000073C: 12:11:51 [TUniGUISessionManager]:Terminating Session manager.
+WebsocketGrid.exe: 0000073C: 12:11:51 [TUniGUISessionManager]:Stopping Cache Eraser...
+WebsocketGrid.exe: 0000073C: 12:11:51 [TUniGUISessionManager]:Cache Eraser Stopped.
+WebsocketGrid.exe: 0000073C: 12:11:51 [TUniGUISessionManager]:Destroying Worker Threads.
+WebsocketGrid.exe: 0000073C: 12:11:51 [TUniGUISessionManager]:Session manager terminated.
+WebsocketGrid.exe: 0000073C: 12:11:51 [TUniWebSocketStack]:Terminating...
+WebsocketGrid.exe: 0000073C: 12:11:51 [TUniGUIMessageQ]:Terminated.
+WebsocketGrid.exe: 0000073C: 12:11:51 [TUniWebSocketStack]:Terminated.
+WebsocketGrid.exe: 0000073C: 12:11:51 [TUniServerModule]:Server Shutdown Completed.
+WebsocketGrid.exe: 0000073C: 12:11:51 []:<-------------------------------------------------------------->
+WebsocketGrid.exe: 0000073C: 12:11:51 [Terminated]:Exit Code: 0
+WebsocketGrid.exe: 00001C6C: 12:19:19 []:>--------------------------------------------------------------<
+WebsocketGrid.exe: 00001C6C: 12:19:19 [TUniServerModule]:Server First Init.
+WebsocketGrid.exe: 00001C6C: 12:19:19 [TUniServerModule]:Start Path = G:\My_project\AppMyWebSocetSQLdb\
+WebsocketGrid.exe: 00001C6C: 12:19:19 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+WebsocketGrid.exe: 00001C6C: 12:19:19 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+WebsocketGrid.exe: 00001C6C: 12:19:19 [TUniServerModule]:HTTP Server Started on Port: 8077
+WebsocketGrid.exe: 00001A3C: 12:19:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: H4OYcXviKn10E87D754 ) : Addr: $00979AAD
+WebsocketGrid.exe: 00001A3C: 12:19:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: H4OYcXviKn10E87D754 ) : Addr: $00979AAD
+WebsocketGrid.exe: 00001A3C: 12:19:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: H4OYcXviKn10E87D754 ) : Addr: $00979AAD
+WebsocketGrid.exe: 00001A3C: 12:19:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: H4OYcXviKn10E87D754 ) : Addr: $00979AAD
+WebsocketGrid.exe: 00001A3C: 12:19:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: H4OYcXviKn10E87D754 ) : Addr: $00979AAD
+WebsocketGrid.exe: 00001A3C: 12:19:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: H4OYcXviKn10E87D754 ) : Addr: $00979AAD
+WebsocketGrid.exe: 00001A3C: 12:19:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: H4OYcXviKn10E87D754 ) : Addr: $00979AAD
+WebsocketGrid.exe: 00001A3C: 12:19:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: H4OYcXviKn10E87D754 ) : Addr: $00979AAD
+WebsocketGrid.exe: 00001A3C: 12:19:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: H4OYcXviKn10E87D754 ) : Addr: $00979AAD
+WebsocketGrid.exe: 00001C6C: 15:50:58 [TUniServerModule]:Shutting Down Server.
+WebsocketGrid.exe: 00001C6C: 15:50:58 [TUniServerModule]:Stopping HTTP Server.
+WebsocketGrid.exe: 00001C6C: 15:50:59 [TUniServerModule]:HTTP Server Stopped.
+WebsocketGrid.exe: 00001C6C: 15:50:59 [TUniGUISessionManager]:Terminating Session manager.
+WebsocketGrid.exe: 00001C6C: 15:50:59 [TUniGUISessionManager]:Stopping Cache Eraser...
+WebsocketGrid.exe: 00001C6C: 15:50:59 [TUniGUISessionManager]:Cache Eraser Stopped.
+WebsocketGrid.exe: 00001C6C: 15:50:59 [TUniGUISessionManager]:Destroying Worker Threads.
+WebsocketGrid.exe: 00001C6C: 15:50:59 [TUniGUISessionManager]:Session manager terminated.
+WebsocketGrid.exe: 00001C6C: 15:50:59 [TUniWebSocketStack]:Terminating...
+WebsocketGrid.exe: 00001C6C: 15:50:59 [TUniGUIMessageQ]:Terminated.
+WebsocketGrid.exe: 00001C6C: 15:50:59 [TUniWebSocketStack]:Terminated.
+WebsocketGrid.exe: 00001C6C: 15:50:59 [TUniServerModule]:Server Shutdown Completed.
+WebsocketGrid.exe: 00001C6C: 15:50:59 []:<-------------------------------------------------------------->
+WebsocketGrid.exe: 00001C6C: 15:50:59 [Terminated]:Exit Code: 0

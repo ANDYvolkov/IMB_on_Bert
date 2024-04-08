@@ -1,0 +1,41 @@
+unit LoginForm;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIRegClasses, uniGUIForm, uniGUIBaseClasses, uniLabel,
+  uniBasicGrid, uniDBGrid, uniEdit, uniButton, uniPanel;
+
+type
+  TUniLoginForm1 = class(TUniLoginForm)
+    unlblTitul: TUniLabel;
+    unpnlInsertUser: TUniPanel;
+    ubtnAddUser: TUniButton;
+    undtUser: TUniEdit;
+    undbgrdUser: TUniDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function UniLoginForm1: TUniLoginForm1;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  uniGUIVars, MainModule, uniGUIApplication;
+
+function UniLoginForm1: TUniLoginForm1;
+begin
+  Result := TUniLoginForm1(UniMainModule.GetFormInstance(TUniLoginForm1));
+end;
+
+initialization
+  RegisterAppFormClass(TUniLoginForm1);
+
+end.

@@ -1,0 +1,17 @@
+object UniMainModule: TUniMainModule
+  OldCreateOrder = True
+  OnCreate = UniGUIMainModuleCreate
+  MonitoredKeys.Keys = <>
+  WebSocketConnection.Enabled = True
+  Height = 332
+  Width = 354
+  object ADOConnection1: TADOConnection
+    Attributes = [xaCommitRetaining]
+    CursorLocation = clUseServer
+    IsolationLevel = ilReadUncommitted
+    LoginPrompt = False
+    Provider = 'Microsoft.Jet.OLEDB.4.0'
+    Left = 136
+    Top = 104
+  end
+end

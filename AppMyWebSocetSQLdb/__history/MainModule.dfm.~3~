@@ -1,0 +1,34 @@
+object UniMainModule: TUniMainModule
+  OnCreate = UniGUIMainModuleCreate
+  MonitoredKeys.Keys = <>
+  WebSocketConnection.Enabled = True
+  Height = 332
+  Width = 354
+  object conMain: TFDConnection
+    Params.Strings = (
+      'DriverID=SQLite'
+      'Database=G:\My_project\AppMyWebSocetSQLdb\files\MyDB.sqlit3')
+    Connected = True
+    LoginPrompt = False
+    Left = 80
+    Top = 44
+  end
+  object fdphysqltdrvrlnk1: TFDPhysSQLiteDriverLink
+    Left = 152
+    Top = 100
+  end
+  object fdtbluser: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = conMain
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'users'
+    Left = 88
+    Top = 184
+  end
+  object dsuser: TDataSource
+    DataSet = fdtbluser
+    Left = 160
+    Top = 200
+  end
+end
